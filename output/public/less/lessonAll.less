@@ -1,0 +1,76 @@
+.active {
+    background-color: #fff;
+    color: #54555a!important;
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #54555a;
+    padding-top: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    .title{
+        height: 135px;
+        padding: 10px 0 100px;
+        text-align: center;
+        font: 400 24px/24px '微软雅黑';
+        color: #fff;
+        border-bottom: 1px solid #ccc;
+    }
+    .nav {
+        li {
+            height: 40px;
+            border-bottom: 1px solid #ccc;
+            color: #fff;
+            text-align: center;
+
+            cursor: pointer;
+            i{
+                font-size: 18px;
+                line-height: 40px;
+                margin-left: 20px;
+                font-weight: 400;
+            }
+            .navName {
+                color: #fff;
+                font: 400 20px/40px '微软雅黑';
+            }
+        }
+    }
+}
+.alllesson{
+    padding: 20px 0 0 200px;
+    .lessonInfo{
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        margin: 0 20px;
+        .table-name{
+            text-align: center;
+            font: 700 25px/35px '微软雅黑';
+        }
+        table{
+            width: 100%;
+            border-spacing: 0;
+            td{
+                padding: 5px;
+                height: 50px;
+                text-align: center;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            thead{
+                td{
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+            }
+            thead:hover,tr:hover{
+                background-color: #ddd;
+            }
+        }
+        
+    }
+}
