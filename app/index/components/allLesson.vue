@@ -1,5 +1,5 @@
 <template>
-    <div class="alllesson" id="app1">
+    <div class="alllesson">
         <div class="lessonInfo">
             <div class="table-name">理科课程</div>
             <table>
@@ -27,7 +27,16 @@
                         <td>{{ value1['备注'] || '无' }}</td>
                     </tr>
                 </tbody>
-            </table>
         </div>
     </div>
 </template>
+<script>
+    console.log( COURSE_DATA );
+    module.exports = {
+        data: function () {
+            return {
+                course: COURSE_DATA
+            }
+        }
+    }
+</script>
